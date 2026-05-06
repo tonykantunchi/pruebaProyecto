@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────
+#  FRONTEND — Variables de entorno
+#  Proyecto: Illari — Test Emocional
+#  Coloca este archivo en la carpeta FRONTEND/
+#  ⚠️  Las variables DEBEN empezar con REACT_APP_
+# ─────────────────────────────────────────────
+
+# ── URL del backend (FastAPI) ─────────────────
+REACT_APP_API_URL=http://localhost:8000
+
+# ── Stripe (clave pública — segura para el frontend) ─
+# Obtén tu clave pública en https://dashboard.stripe.com/apikeys
+REACT_APP_STRIPE_PK=pk_test_51TU4X9AetTUNUiQnqmn9MyaBUZi0CIdlELOEnGqLfQzCy1NNsLNHUd1btHYSonTjrBBa7mv0n4AvF12A7mk8O56h000hQkeeHu
